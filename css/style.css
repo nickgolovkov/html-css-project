@@ -1,0 +1,919 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  min-width: 768px;
+  max-width: 1349px;
+  width: 100%;
+
+}
+.container{
+ 
+  position: relative;
+  display: flex;
+  min-height: 2029px;
+}
+footer{
+  width: 100%;
+  height: 100%;
+  background-color:rgb(247, 247, 247);
+  min-height: 330px;
+}
+.left-bar{
+  max-width: 255px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #842a2b 0%, #2d6787 100%);
+  
+  top: 0;
+  left: 0;
+  min-height: 2029px;
+}
+.right-bar{
+  width: 100%;
+  height: 100%;
+}
+ .head{
+  min-height: 39px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #e8e6e6;
+  
+  
+}
+
+.search-bar{
+  min-height: 71px;
+  width: 100%;
+  height: 100%; 
+}
+.delivery{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+ 
+}
+.delivery1{
+  width: 233px;
+  height: 39px;
+  border-right: 1px solid #e8e6e6;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delivery2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.delivery2>a{
+  margin: 9px;
+  font-size: 14px;
+  color: #a3a2a2;
+}
+.delivery2>a:hover{
+  color:#e03f50;
+}
+.delivery-city{
+  width: 123px;
+  height: 100%;
+  background-color: #e03f50;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border-radius: 5%;
+}
+.delivery-car{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 21px;
+  width: 37px;
+  background-position:-93px -37px; 
+}
+.delivery-city>a{
+  width: 123px;
+  text-decoration: none;
+  color: white;
+  background-color: #e03f50;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+}
+.search-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar-line{
+  width: 509px;
+  height: 55px;
+  margin: 10px;
+}
+.bar-itself{
+  width: 508px;
+  height: 32px;
+  border-bottom-left-radius: 3px;
+  border-bottom-color: rgb(229, 229, 229);
+  border-left-color: rgb(229, 229, 229);
+  border-top-color: rgb(229, 229, 229);
+  border-right-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 229, 229);
+  display: flex;
+  justify-content: flex-end;
+
+}
+.button{
+  width: 86px;
+  height: 100%;
+  background-color: rgb(224, 63, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.loupe{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 19px;
+  width: 19px;
+  background-position:-74px -37px; 
+}
+.search-bar-line{
+ 
+  width: 509px;
+  height: 55px;
+  
+
+}
+.search-bar-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  rgb(110, 110, 111);
+ font-size: 12px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.search-bar-string{
+  padding-right: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.3px;
+  color: #a7a7a7;
+  margin-right: 10px;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo1{
+   background: url(../img/delivery_car.png) no-repeat;
+  height: 19px;
+  width: 14px;
+  background-position:-14px -37px; 
+}
+.logo2{
+   background: url(../img/delivery_car.png) no-repeat;
+  height: 19px;
+  width: 10px;
+  background-position:-40px -37px; 
+}
+.logo3{
+   background: url(../img/delivery_car.png) no-repeat;
+  height: 19px;
+  width: 14px;
+  background-position:-50px -37px; 
+  padding-right: 9px;
+}
+.logo4{
+   background: url(../img/delivery_car.png) no-repeat;
+  height: 19px;
+  width: 14px;
+  background-position:-28px -37px; 
+}
+.contacts{
+  padding-right: 100px;
+}
+.contact{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+.logo1, .logo2, .logo3, .logo4{
+  margin-right: 10px;
+}
+.contact-group{
+  font-family: Exo2Regular;
+  font-size: 17px;
+
+}
+.big-wallper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 550px;
+  margin-right: 0;
+}
+.right-icons{
+  width: 100px;
+  height: 435px;
+}
+.iamge{
+    margin-left: 0;
+}
+
+.icon1{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 38px;
+  width: 38px;
+  background-position:-197px -37px; 
+}
+.icon2{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 36px;
+  width: 38px;
+  background-position:-81px 0px;
+}
+.icon3{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 36px;
+  width: 44px;
+  background-position:-355px 0px;
+}
+.icon4{
+  background: url(../img/delivery_car.png) no-repeat;
+  height: 28px;
+  width: 26px;
+  background-position:-235px -37px;
+}
+.info1, .info2, .info3{
+  border-bottom: 1px solid #e8e6e6;
+}
+.right-icons{
+  margin-right: 0;
+}
+.info1, .info2, .info3, .info4{
+    padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+    font-weight: 300;
+  color: #bcbcbc;
+  padding: 20px 24px 20px 6px;
+  width: 100%;
+}
+.info1>span, .info2>span, .info3>span, .info4>span{
+ text-align: center;
+}
+.info1, .info2, .info3, .info4{
+ 
+}
+.right-icons>a:hover{
+  background-color: rgb(224, 63, 80);
+}
+.right-icons>img{
+  position: relative;
+}
+.right-icons>bottom-bar{
+  position: absolute;
+}
+.image{
+  background: url(../img/samsung_image.png);
+  height: 90%;
+  width: 85%;
+}
+.bottom-bar{
+  width: 100%;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 450px;
+}
+.circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color:#bcbcbc ;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.circle:hover{
+  background-color: rgb(224, 63, 80);
+}
+.catalog{
+  display: flex;
+  flex-direction: row;
+ text-align: center;
+  flex-wrap:wrap;
+  text-align: center;
+  flex-direction: row;
+  
+}
+.catalog>.item>a{
+  text-decoration: none;
+}
+.catalog>a:hover{
+  
+}
+.catalog-item-info{
+  text-decoration: underline;
+  color: #353535;
+}
+.item{
+  text-align: center;
+  width: 215px;
+  align-content: center;
+  margin-top: 90px;
+}
+.image_catalog{
+  width: 85px;
+  height: 190px;
+  text-align: center;
+display:block;
+  margin:0 auto;
+}
+.frs{
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #353535;
+  font-family: "Exo 2 Bold Condensed";
+}
+.frs>span{
+  font-size: 20px;
+}
+.item>div{
+  color: #353535;
+  font-family: "Exo 2 Bold Condensed";
+  text-decoration: none;
+}  
+
+.item>a:hover .catalog-item-info{
+  color: rgb(224, 63, 80);
+  text-decoration: none;
+}
+.item>a:hover .frs{
+  color: rgb(224, 63, 80);
+}
+.menu{
+  width: 100%;
+  height: 720px;
+}
+.menu-advertising{
+  width: 100%;
+  height: 211px;
+  border-bottom: 1px solid rgb(139, 139, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-decoration: none;
+}
+.menu-advertising>a{
+  text-decoration: none;
+}
+.logo{
+  width: 100%;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+ 
+}
+.menu-logo1{
+  width: 84px;
+  height: 82px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-332px -199px;
+}
+.menu-logo2{
+  width: 90px;
+  height: 60px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-287px -86px;
+}
+.text{
+  text-align: center;
+    opacity: 0.45;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 20px;
+   text-decoration: none;
+}
+.menu-bar_point{
+  width: 100%;
+  height: 61px;
+  border-bottom: 1px solid rgb(139, 139, 139);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(245, 245, 245);
+  font-size: 15px;
+}
+.menu-bar>a{
+  text-decoration: none;
+}
+.menu-bar>a:hover{
+  background-color: rgb(224, 63, 80);
+}
+.menu-bar-image1{
+  width: 22px;
+  height: 35px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-34px -0px;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+.menu-bar-image2{
+  width: 27px;
+  height: 35px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-328px -0px;
+  margin-right: 49px;
+  margin-left: 30px;
+}
+.menu-bar-image3{
+  width: 50px;
+  height: 49px;
+  background: url(../img/smart-watch.png) no-repeat;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.menu-bar-image4{
+  width: 55px;
+  height: 31px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-157px -0px;
+  margin-right: 35px;
+  margin-left: 30px;
+}
+.menu-bar-image5{
+  margin-left: 30px;
+  width: 33px;
+  height: 33px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-295px -0px;
+  margin-right: 40px;
+}
+.menu-bar-image6{
+  margin-left: 30px;
+  width: 30px;
+  height: 37px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-400px -0px;
+  margin-right: 45px;
+}
+.menu-bar-image7{
+  margin-left: 30px;
+  width: 49px;
+  height: 16px;
+  background: url(../img/giro_icon.png) no-repeat;
+ 
+  margin-right: 30px;
+}
+.menu-bar-image8{
+  margin-left: 30px;
+  width: 35px;
+  height: 31px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-198px -0px;
+  margin-right: 45px;
+}
+.advertising-bar1{
+  height: 385px;
+  width: 100%;
+  border-bottom:1px solid rgb(139, 139, 139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div_advertising_1{
+  width: 80%;
+  margin-bottom: 25px;
+  color: #bcbec4;
+  font-size: 14px;
+}
+.div_advertising_2{
+  width: 80%;
+  margin-bottom: 25px;
+  color: #bcbec4;
+  font-size: 12px;
+}
+.link1{
+  width: 80%;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #f7f7f7;
+  font-size: 14px;
+}
+.link1:hover{
+  text-decoration: none;
+}
+.link2{
+  width: 80%;
+  text-align: left;
+  margin-bottom: 25px;
+  color: rgb(224, 63, 80);
+}
+.link2:hover{
+  text-decoration: none;
+}
+.advertising-bar2{
+  width: 100%;
+  height: 226px;
+  border-bottom:1px solid rgb(139, 139, 139);
+  
+}
+.advertising-bar2-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.advertising-bar2-link-img1{
+  width: 45px;
+  height: 49px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-351px -37px;
+  306
+  margin-bottom: 10px;
+}
+.advertising-bar2-link-img2{
+  width: 167px;
+  height: 17px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:0px -86px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.advertising-bar2-link-adress{
+  color: #e03f50;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.advertising-bar2-link-days{
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+.advertising-bar2-link-time{
+  color: rgb(255, 255, 255);
+  font-weight: 0.5em;
+  margin-bottom: 10px;
+}
+.advertising-bar2:hover{
+  background-color:rgb(224, 63, 80) ;
+}
+.advertising-bar2:hover .advertising-bar2-link-img1{
+  background-position:-306px -37px;
+}
+.advertising-bar2:hover .advertising-bar2-link-adress{
+  color: rgb(255, 255, 255);
+}
+.advertising-bar3{
+  width: 100%;  
+  height: 228px;
+  border-bottom:1px solid rgb(139, 139, 139);
+}
+.advertising-bar3>a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.advertising-bar3-img{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 168px;
+  height: 62px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:0px -199px;
+}
+.advertising-bar3-site{
+  color: #e03f50;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.advertising-bar3-descr{
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.advertising-bar3:hover .advertising-bar3-site{
+  color: #fff;
+}
+.advertising-bar3:hover{
+  background-color:rgb(224, 63, 80) ;
+}
+
+.advertising-bar{
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.advertising-bar4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.advertising-bar4>a{
+  text-decoration: none;
+
+}
+
+.advertising-bar4-link1{
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.advertising-bar4-text2{
+  width: 60%;
+  text-align: left;
+  color: #bcbec4;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.advertising-bar4-text1{
+  width: 80%;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.advertising-bar4-link2{
+  color:rgb(224, 63, 80);
+  margin-top: 20px;
+  width: 60%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-advertising{
+  width: 667.75px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-adv{
+  height: 100%;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo-adv-logo{
+  width: 120px;
+  height: 54px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-167px -86px;
+  margin-bottom: 10px;
+}
+.logo-adv-mail{
+  color: rgb(227, 25, 25);
+  text-decoration: underline;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.logo-adv-contacts{
+  list-style-type:none;
+  color: #777777;
+  font-size: 13px;
+  margin-bottom: 8px;
+  margin-right: 40px;
+}
+.text-adv{
+  width: 377px;
+  height: 100%;
+}
+.text-adv-div1{
+  width: 70%;
+  height: 60%;
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.text-adv-div2{
+  height: 20%;
+  color:  rgb(107, 107, 107);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+} 
+.menus{
+  width: 667px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.menus-menu-ul{
+  list-style-type: none;
+  margin-right: 30px;
+  align-items: flex-start;
+  text-align: left;
+}
+.menus-menu-ul>li>a{
+  color: rgb(107, 107, 107);
+  font-size: 12px;
+}
+.red-line-bar{
+  width: 88px;
+  height: 0;
+  border: solid 3px #e03f50;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.menus-menu{
+  display: flex;
+ flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.menus-menu-ul>li>a:hover{
+  text-decoration: none;
+}
+.after-footer-scroll{
+  width: 100%;
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1500;
+  bottom: 0;
+}
+.after-footer-scroll{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-footer-scroll-first-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid white;
+}
+.after-footer-scroll-second-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid white;
+  margin-left: 10px;
+}
+.after-footer-scroll-img1{
+  width: 31px;
+  height: 31px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-264px -0px;
+}
+.after-footer-scroll-content1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.after-footer-scroll-content1>div{
+  color: #E32525;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.after-footer-scroll-content1>a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.after-footer-scroll-content2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.after-footer-scroll-img2{
+  width: 29px;
+  height: 24px;
+  background: url(../img/delivery_car.png) no-repeat;
+  background-position:-130px -37px;
+}
+.after-footer-scroll-content2>div{
+  color: #E32525;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.after-footer-scroll-content2>a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.consultant{
+  width: 300px;
+  height: 38px;
+  background-color: #66CDAA;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 3px;
+  opacity: 1;
+  text-decoration: none;
+}
+.consultant>div{
+  width: 87%;
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and (max-device-width: 500px){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
